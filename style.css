@@ -1,0 +1,200 @@
+/* إعدادات الشعار */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+    /* لتوفير مسافة بين الشعار والنص */
+}
+
+/* لمحاذاة الروابط من اليمين */
+.navbar-nav {
+    direction: rtl;
+    /* لضبط ترتيب الروابط */
+}
+
+/* جعل الخلفية خفيفة وسلاسة التنقل */
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق الروابط */
+.nav-link {
+    color: #333 !important;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #007bff !important;
+}
+
+/* تنسيقات قسم الترحيب */
+#home {
+    color: #fff;
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
+}
+/* قسم المنتجات */
+
+.card {
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-body h5 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.card-text {
+    font-size: 0.9rem;
+    color: gray;
+}
+.price {
+    font-size: 0.9rem;
+    color: #333;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #333;
+    border-radius: 50%;
+    padding: 10px;
+}
+/* الفوتر الإضافي */
+.top-footer {
+    background-color: #f1f1f1;
+    padding: 30px 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+.top-footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-column {
+    flex: 1 1 300px;
+    margin: 15px;
+}
+
+.footer-column h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: #666;
+    transition: color 0.3s;
+}
+
+.footer-links li a:hover {
+    color: #28a745;
+}
+
+/* تنسيق أيقونات التواصل في نص الفوتر */
+.social-icons {
+    display: flex;
+    justify-content: center; /* لمحاذاة الأيقونات في الوسط أفقيًا */
+    align-items: center; /* لمحاذاة الأيقونات في الوسط عموديًا */
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 15px; /* تباعد أفقي بين الأيقونات */
+    color: #333;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #28a745; /* تغيير اللون عند المرور على الأيقونة */
+}
+.social-icons a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #28a745;
+}
+
+/* جعل التصميم متجاوبًا */
+@media (max-width: 768px) {
+    .footer-columns {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-column {
+        margin-bottom: 20px;
+
+    }
+}
+
+/* جعل التصميم متجاوبًا مع الهواتف الأصغر */
+@media (max-width: 576px) {
+    .footer-column {
+        flex: 1 1 100%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .footer-links li {
+        margin-bottom: 8px;
+    }
+
+    .footer-column h3 {
+        font-size: 1.3rem;
+    }
+
+    .social-icons a {
+        font-size: 1.2rem;
+        margin: 0 5px;
+    }
+    
+    .social-icons {
+        justify-content: center;
+        margin-top: 15px;
+    }
+}
+
+/* الفوتر */
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}

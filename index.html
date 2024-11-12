@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة الفتح</title>
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- ملف CSS الخاص بك -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body data-spy="scroll" data-target="#navbarNav" data-offset="70"> <!-- إضافة إعدادات Scrollspy -->
+
+    <!-- شريط التنقل -->
+    <!-- شريط التنقل -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <!-- الشعار (logo) -->
+            <a class="navbar-brand" href="#">
+                <img src="logo.jpg" alt="شركة الفتح سيد" width="50" height="50">
+                شركة الفتح سيد
+            </a>
+
+            <!-- زر القائمة للهاتف -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- قائمة الروابط -->
+            <div class="collapse navbar-collapse justify-content-lg-end text-right" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">منتجاتنا</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">عن الشركة</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">تواصل معنا</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- قسم الترحيب -->
+    <section id="home" class="jumbotron text-center">
+        <h1 class="display-4">مرحباً بكم في شركة الفتح سيد</h1>
+        <p class="lead">نوفر أفضل أنواع البذور والأسمدة لتعزيز إنتاجيتكم الزراعية</p>
+        <a href="#products" class="btn btn-primary btn-lg">تصفح منتجاتنا</a>
+    </section>
+
+    <!-- أقسام أخرى للمحتوى -->
+    <section id="products" class="container mt-5">
+        <h2 class="text-center mb-4">منتجات الذرة</h2>
+        <div id="productsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- الشريحة الأولى -->
+                <div class="carousel-item active">
+                    <div class="row d-flex justify-content-center">
+                        <!-- منتج 1 -->
+                        <div class="col-md-3 col-6 mb-3">
+                            <div class="card">
+                                <img src="0/NPK FERT.jpg" class="card-img-top" alt="DELHAS NPK FERT">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">DELHAS NPK FERT</h5>
+                                    <p class="card-text">وصف المنتج هنا</p>
+                                    <p class="price">السعر: $100</p>
+                                    <a href="shopro.html?product-id=1" class="btn btn-primary">المزيد</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- منتج 2 -->
+                        <div class="col-md-3 col-6 mb-3">
+                            <div class="card">
+                                <img src="0/MOREOVER NPK.jpg" class="card-img-top" alt="DELHAS MOREOVER NPK">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">اسم المنتج </h5>
+                                    <p class="card-text">وصف المنتج هنا</p>
+                                    <p class="price"></p>
+                                    <a href="shopro.html?product-id=2" class="btn btn-primary">المزيد</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- منتج 3 -->
+                        <div class="col-md-3 col-6 mb-3">
+                            <div class="card">
+                                <img src="0/IMPACT NPK.jpg" class="card-img-top" alt="DELHAS SOLUTION NPK">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">DELHAS SOLUTION NPK</h5>
+                                    <p class="card-text">وصف المنتج هنا</p>
+                                    <p class="price">السعر: $150</p>
+                                    <a href="shopro.html?product-id=3" class="btn btn-primary">المزيد</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- منتج 4 -->
+                        <div class="col-md-3 col-6 mb-3">
+                            <div class="card">
+                                <img src="0/IMPACT NPK.jpg" class="card-img-top" alt="DELHAS EXTRA NPK">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">DELHAS EXTRA NPK</h5>
+                                    <p class="card-text">وصف المنتج هنا</p>
+                                    <p class="price">السعر: $130</p>
+                                    <a href="shopro.html?product-id=4" class="btn btn-primary">المزيد</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- شريحة إضافية -->
+                <div class="carousel-item">
+                    <div class="row d-flex justify-content-center">
+                        <!-- منتج 5 -->
+                        <div class="col-md-3 col-6 mb-3">
+                            <div class="card">
+                                <img src="0/IMPACT NPK.jpg" class="card-img-top" alt="DELHAS IMPACT NPK">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">DELHAS IMPACT NPK</h5>
+                                    <p class="card-text">وصف المنتج هنا</p>
+                                    <p class="price">السعر: $140</p>
+                                    <a href="shopro.html?product-id=5" class="btn btn-primary">المزيد</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 mb-3">
+                            <div class="card">
+                                <img src="0\NPK FERT.jpg" class="card-img-top" alt="DELHAS IMPACT NPK">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">DELHAS IMPACT NPK</h5>
+                                    <p class="card-text">وصف المنتج هنا</p>
+                                    <p class="price">السعر: $140</p>
+                                    <a href="shopro.html?product-id=5" class="btn btn-primary">المزيد</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 mb-3">
+                            <div class="card">
+                                <img src="0\NPK FERT.jpg" class="card-img-top" alt="DELHAS IMPACT NPK">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">DELHAS IMPACT NPK</h5>
+                                    <p class="card-text">وصف المنتج هنا</p>
+                                    <p class="price">السعر: $140</p>
+                                    <a href="shopro.html?product-id=5" class="btn btn-primary">المزيد</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 mb-3">
+                            <div class="card">
+                                <img src="0\NPK FERT.jpg" class="card-img-top" alt="DELHAS IMPACT NPK">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">DELHAS IMPACT NPK</h5>
+                                    <p class="card-text">وصف المنتج هنا</p>
+                                    <p class="price">السعر: $140</p>
+                                    <a href="shopro.html?product-id=5" class="btn btn-primary">المزيد</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- أضف منتجات أخرى في هذه الشريحة حسب الحاجة -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- أزرار التنقل مع تخصيص التصميم -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#productsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+                <span class="visually-hidden">السابق</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#productsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+                <span class="visually-hidden">التالي</span>
+            </button>
+        </div>
+    </section>
+
+<!-- قسم بذور القمح -->
+<section id="wheat-seeds" class="container mt-5">
+    <h2 class="text-center mb-4">بذور القمح</h2>
+    <div id="wheatCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- الشريحة الأولى -->
+            <div class="carousel-item active">
+                <div class="row d-flex justify-content-center">
+                    <!-- منتج 1 -->
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="card">
+                            <img src="images/seed1.jpg" class="card-img-top" alt="بذور القمح 1">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">بذور القمح 1</h5>
+                                <p class="card-text">وصف المنتج هنا</p>
+                                <p class="price">السعر: $80</p>
+                                <a href="shopro.html?product-id=6" class="btn btn-primary">المزيد</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- منتج 2 -->
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="card">
+                            <img src="images/seed2.jpg" class="card-img-top" alt="بذور القمح 2">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">بذور القمح 2</h5>
+                                <p class="card-text">وصف المنتج هنا</p>
+                                <p class="price">السعر: $90</p>
+                                <a href="shopro.html?product-id=7" class="btn btn-primary">المزيد</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- منتج 3 -->
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="card">
+                            <img src="images/seed3.jpg" class="card-img-top" alt="بذور القمح 3">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">بذور القمح 3</h5>
+                                <p class="card-text">وصف المنتج هنا</p>
+                                <p class="price">السعر: $85</p>
+                                <a href="shopro.html?product-id=8" class="btn btn-primary">المزيد</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="card">
+                            <img src="images/seed3.jpg" class="card-img-top" alt="بذور القمح 3">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">بذور القمح 3</h5>
+                                <p class="card-text">وصف المنتج هنا</p>
+                                <p class="price">السعر: $85</p>
+                                <a href="shopro.html?product-id=8" class="btn btn-primary">المزيد</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- شريحة إضافية -->
+            <div class="carousel-item">
+                <div class="row d-flex justify-content-center">
+                    <!-- منتج 4 -->
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="card">
+                            <img src="images/seed4.jpg" class="card-img-top" alt="بذور القمح 4">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">بذور القمح 4</h5>
+                                <p class="card-text">وصف المنتج هنا</p>
+                                <p class="price">السعر: $95</p>
+                                <a href="shopro.html?product-id=9" class="btn btn-primary">المزيد</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- منتج 5 -->
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="card">
+                            <img src="images/seed5.jpg" class="card-img-top" alt="بذور القمح 5">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">بذور القمح 5</h5>
+                                <p class="card-text">وصف المنتج هنا</p>
+                                <p class="price">السعر: $100</p>
+                                <a href="shopro.html?product-id=10" class="btn btn-primary">المزيد</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="card">
+                            <img src="images/seed4.jpg" class="card-img-top" alt="بذور القمح 4">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">بذور القمح 4</h5>
+                                <p class="card-text">وصف المنتج هنا</p>
+                                <p class="price">السعر: $95</p>
+                                <a href="shopro.html?product-id=9" class="btn btn-primary">المزيد</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- منتج 5 -->
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="card">
+                            <img src="images/seed5.jpg" class="card-img-top" alt="بذور القمح 5">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">بذور القمح 5</h5>
+                                <p class="card-text">وصف المنتج هنا</p>
+                                <p class="price">السعر: $100</p>
+                                <a href="shopro.html?product-id=10" class="btn btn-primary">المزيد</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- أزرار التنقل مع تخصيص التصميم -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#wheatCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+            <span class="visually-hidden">السابق</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#wheatCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+            <span class="visually-hidden">التالي</span>
+        </button>
+    </div>
+</section>
+
+<!--الاسمدة  -->
+<section id="Fert-Carousel" class="container mt-5">
+    <h2 class="text-center mb-4">الاسمدة</h2>
+    <div id="FertCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- الشريحة الأولى -->
+            <div class="carousel-item active">
+                <div class="row d-flex justify-content-center">
+                    <!-- منتج 1 -->
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="card">
+                            <img src="images/seed1.jpg" class="card-img-top" alt="بذور القمح 1">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">بذور القمح 1</h5>
+                                <p class="card-text">وصف المنتج هنا</p>
+                                <p class="price">السعر: $80</p>
+                                <a href="shopro.html?product-id=6" class="btn btn-primary">المزيد</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- منتج 2 -->
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="card">
+                            <img src="images/seed2.jpg" class="card-img-top" alt="بذور القمح 2">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">بذور القمح 2</h5>
+                                <p class="card-text">وصف المنتج هنا</p>
+                                <p class="price">السعر: $90</p>
+                                <a href="shopro.html?product-id=7" class="btn btn-primary">المزيد</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- منتج 3 -->
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="card">
+                            <img src="images/seed3.jpg" class="card-img-top" alt="بذور القمح 3">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">بذور القمح 3</h5>
+                                <p class="card-text">وصف المنتج هنا</p>
+                                <p class="price">السعر: $85</p>
+                                <a href="shopro.html?product-id=8" class="btn btn-primary">المزيد</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="card">
+                            <img src="images/seed3.jpg" class="card-img-top" alt="بذور القمح 3">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">بذور القمح 3</h5>
+                                <p class="card-text">وصف المنتج هنا</p>
+                                <p class="price">السعر: $85</p>
+                                <a href="shopro.html?product-id=8" class="btn btn-primary">المزيد</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- شريحة إضافية -->
+            <div class="carousel-item">
+                <div class="row d-flex justify-content-center">
+                    <!-- منتج 4 -->
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="card">
+                            <img src="images/seed4.jpg" class="card-img-top" alt="بذور القمح 4">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">بذور القمح 4</h5>
+                                <p class="card-text">وصف المنتج هنا</p>
+                                <p class="price">السعر: $95</p>
+                                <a href="shopro.html?product-id=9" class="btn btn-primary">المزيد</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- منتج 5 -->
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="card">
+                            <img src="images/seed5.jpg" class="card-img-top" alt="بذور القمح 5">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">بذور القمح 5</h5>
+                                <p class="card-text">وصف المنتج هنا</p>
+                                <p class="price">السعر: $100</p>
+                                <a href="shopro.html?product-id=10" class="btn btn-primary">المزيد</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="card">
+                            <img src="images/seed4.jpg" class="card-img-top" alt="بذور القمح 4">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">بذور القمح 4</h5>
+                                <p class="card-text">وصف المنتج هنا</p>
+                                <p class="price">السعر: $95</p>
+                                <a href="shopro.html?product-id=9" class="btn btn-primary">المزيد</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- منتج 5 -->
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="card">
+                            <img src="images/seed5.jpg" class="card-img-top" alt="بذور القمح 5">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">بذور القمح 5</h5>
+                                <p class="card-text">وصف المنتج هنا</p>
+                                <p class="price">السعر: $100</p>
+                                <a href="shopro.html?product-id=10" class="btn btn-primary">المزيد</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- أزرار التنقل مع تخصيص التصميم -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#FertCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+            <span class="visually-hidden">السابق</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#FertCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+            <span class="visually-hidden">التالي</span>
+        </button>
+    </div>
+</section>
+
+
+
+
+    <section id="about" class="container mt-5">
+        <h2>عن الشركة</h2>
+        <p>نحن شركة متخصصة في توفير المنتجات الزراعية...</p>
+    </section>
+
+    <section id="contact" class="container mt-5">
+        <h2>تواصل معنا</h2>
+        <p>للمزيد من المعلومات، يرجى الاتصال بنا...</p>
+    </section>
+
+
+
+<!-- الفوتر الإضافي -->
+<footer class="top-footer">
+    <div class="container">
+        <div class="footer-columns">
+            <!-- عمود تصنيفات المنتجات -->
+            <div class="footer-column">
+                <h3>تصنيفات المنتجات</h3>
+                <ul class="footer-links">
+                    <li><a href="products.html" onclick="filterByCategory('all')">جميع المنتجات</a></li>
+                    <li><a href="products.html" onclick="filterByCategory('fertilizers')">الأسمدة</a></li>
+                    <li><a href="products.html" onclick="filterByCategory('soil-nutrients')">منتجات التربة</a>
+                    </li>
+                    <li><a href="products.html" onclick="filterByCategory('pesticides')">منتجات سائلة </a> </li>
+                    <li><a href="products.html" onclick="filterByCategory('seeds')"> منتجات باودر</a></li>
+                    <li><a href="products.html" onclick="filterByCategory('organic')">منتجات عضوية</a></li>
+                </ul>
+            </div>
+
+            <!-- عمود القوائم الرئيسية وأيقونات التواصل -->
+            <div class="footer-column">
+                <h3>القوائم</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="products.html">المنتجات</a></li>
+                    <li><a href="about.html">عن الشركة</a></li>
+                    <li><a href="about2.html">خدماتنا</a></li>
+                    <li><a href="conctus.html">اتصل بنا</a></li>
+                </ul>
+
+                <!-- أيقونات التواصل الاجتماعي -->
+                <div class="social-icons">
+                    <a href="https://wa.me/+2001030507680"><i class="fa-brands fa-whatsapp fa-3x"></i></a>
+                    <a href="https://t.me/SI_D_EK"><i class="fa-brands fa-telegram fa-3x"></i></a>
+                    <a href="https://www.facebook.com/zezo.zdan.3"><i
+                            class="fa-brands fa-facebook fa-3x"></i></a>
+                    <a href="https://www.instagram.com/si_d_ek/?hl=ar"><i
+                            class="fa-brands fa-instagram fa-3x"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- الفوتر -->
+<footer>
+    <div class="clickable">
+        <p>© 2024 Delhasbiotech جميع الحقوق محفوظة لشركة</p>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap 5 JS and Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // تعريف قائمة صور الخلفية
+        const backgroundImages = [
+            'url("0/1.jpg")',
+            'url("0/2.jpg")',
+            'url("0/3.jpg")'
+        ];
+
+        // تحديد العنصر المراد تغيير خلفيته
+        const homeSection = document.getElementById('home');
+        let currentImageIndex = 0;
+
+        // تغيير الخلفية تلقائيًا كل 5 ثوانٍ
+        setInterval(() => {
+            homeSection.style.backgroundImage = backgroundImages[currentImageIndex];
+            currentImageIndex = (currentImageIndex + 1) % backgroundImages.length;
+        }, 5000);
+    </script>
+
+</body>
+
+</html>

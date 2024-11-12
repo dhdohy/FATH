@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الخامات الأكثر طلباً</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .card {
+            border: none;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+        }
+        .card img {
+            max-height: 150px;
+            object-fit: cover;
+        }
+        .card-body h5 {
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        .card-text {
+            font-size: 0.9rem;
+            color: gray;
+        }
+        .in-stock {
+            color: green;
+        }
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">الخامات الأكثر طلباً</h2>
+        <div class="row">
+            <!-- عمود المنتجات -->
+            <div class="col-md-9">
+                <div class="row">
+                    <!-- المنتج 1 -->
+                    <div class="col-md-3 mb-4">
+                        <div class="card text-center">
+                            <img src="image1.jpg" class="card-img-top" alt="إيزيم البكتينز (بكتوزيم)">
+                            <div class="card-body">
+                                <h5 class="card-title">إيزيم البكتينز (بكتوزيم)</h5>
+                                <p class="card-text">إضافات أعلاف، الانزيمات</p>
+                                <p class="in-stock">✔️ In stock</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- المنتج 2 -->
+                    <div class="col-md-3 mb-4">
+                        <div class="card text-center">
+                            <img src="image2.jpg" class="card-img-top" alt="إيزيم البيسين (بيسوزيم)">
+                            <div class="card-body">
+                                <h5 class="card-title">إيزيم البيسين (بيسوزيم)</h5>
+                                <p class="card-text">إضافات أعلاف، الانزيمات</p>
+                                <p class="in-stock">✔️ In stock</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- المنتج 3 -->
+                    <div class="col-md-3 mb-4">
+                        <div class="card text-center">
+                            <img src="image3.jpg" class="card-img-top" alt="إيزيم الأميليز (أميلازيم)">
+                            <div class="card-body">
+                                <h5 class="card-title">إيزيم الأميليز (أميلازيم)</h5>
+                                <p class="card-text">إضافات أعلاف، الانزيمات</p>
+                                <p class="in-stock">✔️ In stock</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- المنتج 4 -->
+                    <div class="col-md-3 mb-4">
+                        <div class="card text-center">
+                            <img src="image4.jpg" class="card-img-top" alt="إيزيم الأسيد بيوتير (بروبايم)">
+                            <div class="card-body">
+                                <h5 class="card-title">إيزيم الأسيد بيوتير (بروبايم)</h5>
+                                <p class="card-text">إضافات أعلاف، الانزيمات</p>
+                                <p class="in-stock">✔️ In stock</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- عمود الوصف -->
+            <div class="col-md-3">
+                <h3 class="section-title">مصانع الأعلاف الحيوانية</h3>
+                <p>ارفع جودة الأعلاف عن طريق إضافة مجموعة مختارة من الخامات لتلبية الاحتياجات المختلفة لكل حيوان في كل مرحلة من مراحل التربية</p>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-bars"></i> جميع التصنيفات</li>
+                    <li><i class="fas fa-dna"></i> الانزيمات</li>
+                    <li><i class="fas fa-leaf"></i> البكتيريا النافعة</li>
+                    <li><i class="fas fa-seedling"></i> الخميرة الحية</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
